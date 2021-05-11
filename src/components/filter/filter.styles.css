@@ -1,6 +1,8 @@
 #filter {
   background-color: #fdf0e8;
   width: 20%;
+  display: inline-block;
+  float: left;
 }
 
 #filter .inside {
