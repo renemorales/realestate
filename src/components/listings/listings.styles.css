@@ -21,6 +21,7 @@
 #listings .sortby-area .results{
   font-size: 0.8rem;
   color: #d1cbcd;
+  display: inline-block;
 }
 
 #listings .sortby-area .sort-options{
@@ -31,7 +32,19 @@
   font-size: 0.9rem;
   font-weight: 300;
   border: 1px solid #d1cbcd;
+  border-radius: 5px;
   background-color: transparent;
-  padding: 5px;
+  padding: 3px;
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: top;
+}
+#listings .sortby-area .sort-options .view{
   display: inline-block;
 }
+
+#listings .sortby-area .sort-options .view .fas{
+  font-size: 1.6rem;
+  margin-right: 15px;
+}
+
