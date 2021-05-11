@@ -11,7 +11,7 @@ export class Listings extends Component {
           <input type="text" name="search" id="" />
         </section>
         <section className="sortby-area">
-          <div className="">
+          <div className="results">
             390 results found
           </div>
           <div className="sort-options">
