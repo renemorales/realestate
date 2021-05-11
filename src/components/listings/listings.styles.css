@@ -1,3 +1,23 @@
 #listings{
-  background-color:beige;
+  width: 70%;
+  float: left;
+  display: inline-block;
+  padding: 15px;
+}
+
+#listings .search-area input[type="text"]{
+  width: 80%;
+  background: transparent;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 2px solid #ada8aa;
+  margin-bottom: 20px;
+}
+
+#listings .sortby-area{
+  margin-bottom: 20px;
+}
+
+#listings .sortby-area .results{
+  font-size: 0.8rem;
 }
