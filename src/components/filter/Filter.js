@@ -9,7 +9,7 @@ export class Filter extends Component {
         <div className="inside">
           <h4>Filter</h4>
           <select name="neighborhood" className='filters neighborhood'>
-            <option value="">City</option>
+            <option value="" >City</option>
             <option value="">Richardson, TX</option>
             <option value="">Plano, TX</option>
             <option value="">Frisco, TX</option>
