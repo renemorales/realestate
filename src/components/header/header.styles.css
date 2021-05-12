@@ -31,14 +31,15 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-  color: #FF718E;
+  color: #fa2d56;
 }
 
 .register-btn{
-  background-color: #FF718E;
+  background-color: #fa2d56;
   padding: 7px 20px;
   text-align: center;
   color: white;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }

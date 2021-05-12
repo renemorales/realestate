@@ -230,3 +230,28 @@
   color: #999093;
   text-transform: capitalize;
 }
+
+#listings .pagination {
+  text-align: center;
+}
+
+#listings .pagination .pages{
+  margin: 0 auto;
+  display: inline-block;
+  -webkit-box-shadow: 0 9px 54px -4px rgba(224, 224, 224, 1);
+  -moz-box-shadow: 0 9px 54px -4px rgba(224, 224, 224, 1);
+  box-shadow: 0 9px 54px -4px rgba(224, 224, 224, 1);
+}
+
+#listings .pagination .pages li {
+  display: inline-block;
+  padding: 20px 30px;
+}
+
+#listings .pagination .pages li:hover,
+#listings .pagination .pages li.active{
+  color: #fff;
+  font-weight: 700;
+  background-color: #fa2d56;
+  cursor: pointer;
+}
