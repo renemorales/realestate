@@ -11,20 +11,19 @@ import './App.css';
 class App extends Component {
   constructor(){
     super();
-
     this.state = {
       ListingsData
     }
   }
 
   render(){
-    console.log(this.state.ListingsData);
+    console.log(this.state);
     return (
       <div className="App">
         <Header />
         <main id='content-area'>
           <Filter />
-          <Listings />
+          <Listings ListingsData= {this.state.ListingsData} />
         </main>
       </div>
     );
